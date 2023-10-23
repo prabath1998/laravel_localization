@@ -18,5 +18,7 @@
     <body class="antialiased">
        <h1 class="text-4xl font-bold">{{ __('welcome.welcome') }}</h1>
        <h1 class="text-4xl text-red-500">{{ __('welcome.logout') }}</h1>
+       
+       <h1 class="text-4xl text-red-500">{{ trans_choice('welcome.apples',25) }}</h1>
     </body>
 </html>
